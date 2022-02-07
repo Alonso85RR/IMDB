@@ -41,7 +41,7 @@ class Profesional
 
         public printAll():void
         {
-
+            console.log("Hola")
             console.log(this.name);
             console.log(this.age);
             console.log(this.genre);

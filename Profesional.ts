@@ -1,4 +1,4 @@
-class Profesional 
+export class Profesional 
 {
        // DECLARACION DE ATRIBUTOS O PROPIEDADES
 
@@ -41,7 +41,7 @@ class Profesional
 
         public printAll():void
         {
-            console.log("Hola")
+            
             console.log(this.name);
             console.log(this.age);
             console.log(this.genre);
@@ -60,5 +60,3 @@ class Profesional
 
 // MAIN
 
-let profesional1 = new Profesional("Alonso", 36, "comedia", 90, 180, "marron","negro","carrera",true,"espaniol",7,"actor")
-console.log(profesional1.printAll());

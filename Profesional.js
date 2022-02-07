@@ -1,3 +1,6 @@
+"use strict";
+exports.__esModule = true;
+exports.Profesional = void 0;
 var Profesional = /** @class */ (function () {
     // CONSTRUCTOR
     function Profesional(name, age, genre, weight, height, hairColor, eyeColor, race, isRetired, nationality, oscarNumber, profession) {
@@ -32,6 +35,5 @@ var Profesional = /** @class */ (function () {
     };
     return Profesional;
 }());
+exports.Profesional = Profesional;
 // MAIN
-var profesional1 = new Profesional("Alonso", 36, "comedia", 90, 180, "marron", "negro", "carrera", true, "espaniol", 7, "actor");
-console.log(profesional1.printAll());

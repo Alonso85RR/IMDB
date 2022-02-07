@@ -1,27 +1,9 @@
-import { Profesional } from "./Profesional";
-
-export class Movie
-{
-    // DECLARACION DE ATRIBUTOS
-
-    public title: string;
-    public releaseYear: number;
-   // public actors: Profesional[];
-    public nacionality: string;
-   /* public director: object;
-    public writer: object;
-    public language: string;
-    public plataform: string;
-    public isMCU: boolean;
-    public mainCharacterName: string;
-    public producer: string;
-    public distributor: string;*/
-    public genre: string;
-
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Movie = void 0;
+class Movie {
     // CONSTRUCTOR
-
-    constructor(title:string, releaseYear:number,nacionality:string, genre:string)
-    {
+    constructor(title, releaseYear, nacionality, genre) {
         this.title = title;
         this.releaseYear = releaseYear;
         //this.actors = this.actors;
@@ -34,17 +16,11 @@ export class Movie
         this.mainCharacterName;
         this.producer;
         this.distributor;*/
-        this.genre= genre;
-
+        this.genre = genre;
     }
-
     // GETERS Y SETTER NO HAY QUE HACER PUES SON PUBLICOS
-
     // DEFINICION DE METODOS PUBLICOS
-
-    public printAll():void
-    {
-
+    printAll() {
         console.log(this.title);
         console.log(this.releaseYear);
         console.log(this.nacionality);
@@ -59,22 +35,6 @@ export class Movie
         console.log(this.producer);
         console.log(this.distributor);
         */
-        
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+exports.Movie = Movie;

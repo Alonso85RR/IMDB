@@ -1,5 +1,11 @@
 "use strict";
-exports.__esModule = true;
-var Profesional_1 = require("./Profesional");
-var profesional1 = new Profesional_1.Profesional("Alonso", 36, "comedia", 90, 180, "marron", "negro", "carrera", true, "espaniol", 7, "actor");
+Object.defineProperty(exports, "__esModule", { value: true });
+const Profesional_1 = require("./Profesional");
+let profesional1 = new Profesional_1.Profesional("Alonso", 36, "comedia", 90, 180, "marron", "negro", "carrera", true, "espaniol", 7, "actor");
 profesional1.printAll();
+let profesional2 = new Profesional_1.Profesional("Pedro", 12, "drama", 92, 170, "marron", "negro", "carrera", true, "espaniol", 7, "actor");
+profesional2.printAll();
+let profesional3 = new Profesional_1.Profesional("Manolo", 54, "accion", 80, 160, "azul", "negro", "carrera", true, "espaniol", 7, "actor");
+profesional3.printAll();
+let profesional4 = new Profesional_1.Profesional("Manuel", 11, "terror", 70, 190, "marron", "negro", "carrera", true, "espaniol", 7, "actor");
+profesional4.printAll();

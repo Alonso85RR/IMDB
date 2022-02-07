@@ -1,9 +1,9 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 exports.Profesional = void 0;
-var Profesional = /** @class */ (function () {
+class Profesional {
     // CONSTRUCTOR
-    function Profesional(name, age, genre, weight, height, hairColor, eyeColor, race, isRetired, nationality, oscarNumber, profession) {
+    constructor(name, age, genre, weight, height, hairColor, eyeColor, race, isRetired, nationality, oscarNumber, profession) {
         this.name = name;
         this.age = age;
         this.genre = genre;
@@ -19,7 +19,7 @@ var Profesional = /** @class */ (function () {
     }
     // GETTER Y SETER NO HACE FALTA YA QUE SON ATRIBUTOS PUBLICOS
     // DEFINICION DE METODOS PUBLICOS
-    Profesional.prototype.printAll = function () {
+    printAll() {
         console.log(this.name);
         console.log(this.age);
         console.log(this.genre);
@@ -32,8 +32,7 @@ var Profesional = /** @class */ (function () {
         console.log(this.nationality);
         console.log(this.oscarsNumber);
         console.log(this.profession);
-    };
-    return Profesional;
-}());
+    }
+}
 exports.Profesional = Profesional;
 // MAIN
